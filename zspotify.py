@@ -29,7 +29,7 @@ import hashlib
 
 
 #rootPath = "ZSpotify Music/"
-rootPath = "D:\music\__zspotify"
+rootPath = "D:\music\__zspotify\"
 skipExistingFiles = True
 
 
