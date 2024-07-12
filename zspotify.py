@@ -21,14 +21,15 @@ from librespot.metadata import TrackId
 
 from pydub import AudioSegment
 
-quality: AudioQuality = AudioQuality.HIGH
-#quality: AudioQuality = AudioQuality.VERY_HIGH #Uncomment this line if you have a premium account
+#quality: AudioQuality = AudioQuality.HIGH
+quality: AudioQuality = AudioQuality.VERY_HIGH #Uncomment this line if you have a premium account
 session: Session = None
 
 import hashlib
 
 
-rootPath = "ZSpotify Music/"
+#rootPath = "ZSpotify Music/"
+rootPath = "D:\music\__zspotify"
 skipExistingFiles = True
 
 
